@@ -16,6 +16,7 @@ const Posts = () => {
 
   const onChange = (e) => {
     setPost({ ...post, [e.target.name]: e.target.value });
+    console.log("changed something");
   };
 
   const onSubmit = (e) => {
